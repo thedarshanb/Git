@@ -1,7 +1,7 @@
 pin ="5416"
 trail =1
 while trail <=3:
-    inpin=input(f"Trail-{trail} |pin>>")
+    inpin=input(f"Trail-{trail} |pin>>")#input 
     trail +=1
     if inpin ==pin:
         print("correct")
